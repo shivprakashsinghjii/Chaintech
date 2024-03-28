@@ -1,0 +1,529 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Setting up the header and navbar */
+/* Setting up the header and navbar */
+/* Setting up the header and navbar */
+header {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px; /* Added padding from left and right */
+}
+
+/* Styling the logo */
+.logo img {
+  width: 165px;
+  height: 48.5px;
+  margin-left: 20px; /* Adjusted margin for the logo */
+}
+
+/* Styling the navbar toggle button */
+.toggle-button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  display: none; /* Hide toggle button by default */
+}
+
+/* Styling the navbar */
+.navbar {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Adjusted margin for navbar items */
+  font-family: "Poppins", sans-serif; 
+}
+
+.navbar .Company_color {
+  color: rgba(0, 255, 167, 1);
+}
+/* Add CSS to style the active link */
+
+
+.navbar li {
+  margin-right: 20px; /* Adjusted margin for navbar items */
+}
+
+.navbar li:last-child {
+  margin-right: 0;
+}
+
+.navbar a {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  border-top: 0.95px solid  rgba(31, 31, 31, 1); /* White color horizontal line */
+  margin: 0; 
+}
+/* Home Section CSS */
+/* Home Section CSS */
+/* Home Section CSS */
+/* Home Section CSS */
+.home_container {
+  background-color: black;
+}
+
+.welcome-container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+}
+
+.welcome_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 90px; /* Adjusted font size for mobile */
+  font-weight: 900;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+.Chaintech_container {
+  display: flex;
+  flex-direction: column; /* Change to column layout */
+  align-items: center;
+  margin-top: -35px; /* Adjusted margin for better spacing */
+}
+
+.Chaintech_text {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.Chaintech_text_chaintech {
+  background: linear-gradient(270deg, #00FFA7 0%, #FFFF00 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px; /* Reduced font size for mobile */
+  font-weight: 800;
+}
+
+.Chaintech_text_To {
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  font-size: 90px; /* Adjusted font size for mobile */
+  letter-spacing: 0.11em;
+}
+
+.home_text {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px; /* Reduced font size for mobile */
+  font-weight: 600;
+  line-height: 1.5;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 15px;
+}
+
+/* Ensure images don't overflow the container */
+.Chaintech_container img {
+  max-width: 95%;
+  padding-bottom: 55px;
+  cursor:pointer; /* Set maximum width to prevent overflow */
+}
+
+/* Services we offer section */
+/* Services we offer section */
+/* Services we offer section */
+/* Services we offer section */
+/* Integrate your existing CSS for card container and cards here */
+.services_text{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.services_we_offer,.services_we_offer_para{
+  display: flex;
+  justify-content: space-between;
+
+  font-family: Poppins;
+}
+.Button-left-button{
+  width:13px;
+  height: 9px;
+  
+  top: 125px;
+  left: 16px;
+  margin-top: 12px;
+}
+.Button-right-button{
+  width:50px;
+  height: 50px;
+
+  top: 125px;
+  left: 16px;
+}
+.images_container {
+  display: flex;
+  justify-content: end;
+  margin-top: -20px;
+  cursor: pointer;
+}
+
+.services_we_offer{
+ margin-top: 50px;
+ font-size: 50px;
+  font-weight: 600;
+  line-height: 70.7px;
+}
+.services_we_offer_para{
+ margin-top: -30px;
+  font-size: 18px;
+   font-weight: 500;
+   line-height: 25.45px;
+ }
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left : 40px;
+    margin-right:40px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.card1 {
+    width: 293px;
+    height: 402px;
+    border: 3px solid #000;
+    border-radius: 20px;
+    position: relative;
+    background-color:rgba(43, 255, 138, 1);
+    
+}
+.card2 {
+  width: 293px;
+  height: 402px;
+  border: 3px solid #000;
+  border-radius: 20px;
+  position: relative;
+  background-color: rgba(0, 240, 255, 1);
+
+}
+.card3 {
+  width: 293px;
+  height: 402px;
+  border: 3px solid #000;
+  border-radius: 20px;
+  position: relative;
+  background: rgba(252, 89, 89, 1);
+
+}
+.card4 {
+  width: 293px;
+  height: 402px;
+  border: 3px solid #000;
+  border-radius: 20px;
+  position: relative;
+  background-color: rgba(45, 69, 230, 1);
+
+}
+
+.logo1 {
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 15px;
+    left: 21px;
+}
+
+.title {
+    width: 316px;
+    height: 21px;
+    position: absolute;
+    top: 19px;
+    left: -30px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21.21px;
+    text-align: center;
+}
+
+.line1 {
+    width: 290px;
+    height: 0px;
+    border-top: 2px solid #000;
+    position: absolute;
+    top: 57px;
+    left: 0;
+    transform: rotate(0.17deg);
+}
+
+
+.description {
+    width: 293px;
+    height: 48px;
+    position: absolute;
+    top: 101px;
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 24.24px;
+    text-align: center;
+}
+
+.image {
+    width: 261px;
+    height: 156px;
+    position: absolute;
+    top: 186px;
+    left: 16px;
+}
+.line2 {
+  width: 290px;
+  height: 0px;
+  border-top: 2px solid #000;
+  position: absolute;
+  top: 333px;
+  left: 0;
+  transform: rotate(0.17deg);
+}
+
+.arrow {
+    width: 121px;
+    height: 50px;
+    position: absolute;
+    top: 340px;
+    left: 153px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+/* footer section CSS */
+/* footer section CSS */
+/* footer section CSS */
+/* footer section CSS */
+.footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_logo {
+  margin: 10px;
+}
+
+.horizontal-line2 {
+  width: 100%;
+  max-width: 1122.02px;
+  height: 0px;
+  border-top: 1px solid white;
+}
+
+.footer-text {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  color: white;
+  text-align: center;
+}
+.footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_logo {
+  margin: 40px;
+}
+
+.horizontal-line2 {
+  width: 100%;
+  max-width: 1122.02px;
+  height: 0px;
+  border-top: 1px solid white;
+  margin-bottom: 40px;
+}
+
+.footer-text {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* Media query for screens  */
+/* Media query for screens  */
+/* Media query for screens  */
+@media screen and (max-width: 1051px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toggle-button {
+    display: block; /* Show toggle button for smaller screens */
+  }
+
+  .navbar {
+    display: none; /* Hide navbar items by default */
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; /* Occupy full width */
+  }
+
+  .navbar.active {
+    display: flex; /* Show navbar items when active */
+  }
+
+  .navbar li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .logo img {
+    margin-left: 20px; /* Adjusted margin for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 995px) {
+  /* Adjustments for smaller screens */
+  .welcome_text {
+    font-size: 45px;
+  }
+  
+  .Chaintech_container{
+    margin-top:5px ;
+  }
+  
+  .Chaintech_text_chaintech,
+  .Chaintech_text_To {
+    font-size: 45px;
+  }
+  
+  .home_text {
+    font-size: 15px;
+     margin-left: 30px; 
+     margin-right: 30px; 
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  /* Adjustments for smaller screens */
+  .welcome_text {
+    font-size: 35px;
+  }
+  
+  .Chaintech_container{
+    margin-top:1px ;
+  }
+  
+  .Chaintech_text_chaintech {
+    font-size: 30px;
+  }
+  
+  .Chaintech_text_To {
+    font-size: 35px;
+    padding-right: 4px;
+  }
+  
+  .home_text {
+    font-size: 15px;
+    margin-left: 70px; 
+    margin-right: 70px; 
+  }
+}
+
+/* Media query for responsiveness */
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 770px) {
+  .welcome_text {
+    font-size: 35px;
+  }
+  
+  .Chaintech_container{
+    margin-top: 1px; /* Add a space after the colon */
+  }
+  
+  .Chaintech_text_chaintech {
+    font-size: 30px;
+  }
+  
+  .Chaintech_text_To {
+    font-size: 35px;
+    padding-right: 4px;
+  }
+  
+  .home_text {
+    font-size: 15px;
+    margin-left: 70px; 
+    margin-right: 70px; 
+  }
+}
+
+/* Media query for screens up to 850px */
+@media only screen and (max-width: 850px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card1, .card2, .card3, .card4 {
+    margin-bottom: 20px;
+  }
+
+  .services_we_offer_para {
+    padding-top: 25px;
+  }
+
+  .title,
+  .line,
+  .description {
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Media query for screens greater than or equal to 850px */
+@media only screen and (min-width: 850px) {
+  .card-container {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .services_we_offer_para {
+    padding-top: 10px;
+  }
+
+  .card1, .card2, .card3, .card4 {
+    margin-bottom: 20px;
+    width: calc(50% - 20px);
+    margin: 0 10px 20px;
+    width: 293px;
+    height: 402px;
+    border: 3px solid #000;
+    border-radius: 20px;
+  }
+}
